@@ -50,6 +50,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   I am a masters student at NYU Courant primarily interested in Statistics, Machine Learning and Deep Learning.
   I have an experience of 2 years in Software Engineering including Backend Development (Oracle) and Machine Learning (NLP and ComputerVision).
+  My research interests are in the field of Natural Language Understanding and Computer Vision.
 
 
 content:
@@ -124,6 +125,55 @@ content:
         description: | # this will include new lines to allow paragraphs
           Implemented using Pretrained YOLOv4 on COCO dataset for object detection and DeepSort Model for object tracking.
           ![Traffic](/images/demo.gif "Traffic")
+          
+      - layout: top-middle
+        title: Simple chatbot using seq2seq encoder-decoder model
+        link: github.com/navpreetnp7/Chatbot
+        # link_text: Project Website
+        additional_links:
+          - title:  Chatbot
+            icon: fab fa-github
+            url: github.com/navpreetnp7/Chatbot
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Simple chatbot trained on Movie Dialogues Dataset
+        description: | # this will include new lines to allow paragraphs
+          I trained a simple seq2seq model Chatbot using Pytorch based on multi-layered Gated Recurrent Unit (GRUs) and Attention mechanism using movie scripts dataset from the Cornell Movie-Dialogs Corpus.
+          
+       - layout: top-middle
+        title: Automatic detection of malignant tumors in the lungs using CT scans
+        link: github.com/navpreetnp7/LUNA-Challenge
+        # link_text: Project Website
+        additional_links:
+          - title:  LUNA-Challenge
+            icon: fab fa-github
+            url: github.com/navpreetnp7/LUNA-Challenge
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Detection of tumors using Lung Nodule Analysis in CT Scans
+        description: | # this will include new lines to allow paragraphs
+          I trained an end-to-end complex deep neural network using Pytorch based on Lung Nodule Analysis dataset of chest CT scans, finding the nodules using simple CNN residual network architecture and then identifying the tumours using state of the art U-Net Architecture for Object Detection and Image segmentation and then using transfer learning to use the same resnet model to train and classify them as benign/malignant.
+          
+        - layout: top-middle
+        title: DNA Classification
+        link: github.com/navpreetnp7/DNA-Classification
+        # link_text: Project Website
+        additional_links:
+          - title:  DNA-Classification
+            icon: fab fa-github
+            url: github.com/navpreetnp7/DNA-Classification
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Track vehicles on the road and estimate their speed.
+        description: | # this will include new lines to allow paragraphs
+          Implemented using Pretrained YOLOv4 on COCO dataset for object detection and DeepSort Model for object tracking.
+          ![Traffic](/images/demo.gif "Traffic")
 
 
   - title: A Little More About Me
@@ -133,10 +183,6 @@ content:
       - Rock climbing
       - Gaming
       - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: false
