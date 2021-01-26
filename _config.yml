@@ -58,6 +58,17 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
+    
+      - layout: left
+        title: New York University
+        caption: 2021 - Present
+        sub_title: Master of Science in Computer Science
+        quote: >
+          New York University (NYU) is a private research university in New York City. Founded in 1831 by a group of prominent New Yorkers as an institution to "admit based upon merit rather than birthright or social class"
+        description: | # this will include new lines to allow paragraphs
+          I am currently a graduate student at NYU Courant pursuing Masters in Computer Science.
+          
+          
       - layout: left
         title: Delhi Technological University
         caption: 2014 - 2018
