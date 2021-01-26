@@ -126,7 +126,7 @@ content:
           Implemented using Pretrained YOLOv4 on COCO dataset for object detection and DeepSort Model for object tracking. The application is able to detect vehicles in a video footage and estimate their speed in pixels/sec.
           
           
-          <img style="float: down;" src="/images/demo.gif" height="300" width="300">
+          <img style="float: center;" src="/images/demo.gif" height="250" width="250">
 
           
       - layout: top-middle
@@ -145,6 +145,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           I trained a simple seq2seq model Chatbot using Pytorch based on multi-layered Gated Recurrent Unit (GRUs) and Attention mechanism using movie scripts dataset from the Cornell Movie-Dialogs Corpus.
           
+          <img style="float: center;" src="/images/demo1.png" height="250" width="250">
+          
       - layout: top-middle
         title: Automatic detection of malignant tumors in the lungs using CT scans
         link: github.com/navpreetnp7/LUNA-Challenge
@@ -160,6 +162,8 @@ content:
           Detection of tumors using Lung Nodule Analysis in CT Scans
         description: | # this will include new lines to allow paragraphs
           I trained an end-to-end complex deep neural network using Pytorch based on Lung Nodule Analysis dataset of chest CT scans, finding the nodules using simple CNN residual network architecture and then identifying the tumours using state of the art U-Net Architecture for Object Detection and Image segmentation and then using transfer learning to use the same resnet model to train and classify them as benign/malignant.
+          
+          <img style="float: center;" src="/images/demo2.png" height="250" width="250">
           
       - layout: top-middle
         title: DNA Classification
@@ -198,10 +202,10 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
+      Alongside my interests in Software Engineering and Machine Learning, some of my other interests and hobbies are:
+      - Book Reading. My recent favourites include Sapiens, Humankind: A hopeful history (Non Fiction)
+      - Basketball
+      - Travelling (Beaches, Mountain Trekking)
 
 # Footer
 footer_show_references: false
