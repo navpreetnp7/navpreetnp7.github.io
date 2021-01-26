@@ -123,8 +123,8 @@ content:
         quote: >
           Track vehicles on the road and estimate their speed.
         description: | # this will include new lines to allow paragraphs
-          Implemented using Pretrained YOLOv4 on COCO dataset for object detection and DeepSort Model for object tracking.
-          ![Traffic](/images/demo.gif "Traffic")
+          Implemented using Pretrained YOLOv4 on COCO dataset for object detection and DeepSort Model for object tracking. The application is able to detect vehicles in a video footage and estimate their speed in pixels/sec
+          <img src="/images/demo.gif" width="200" height="200" class = "center" />
           
       - layout: top-middle
         title: Simple chatbot using seq2seq encoder-decoder model
@@ -170,10 +170,26 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Track vehicles on the road and estimate their speed.
+          Classification of DNA Sequence based on promoter region (where protein contact with DNA helix)
         description: | # this will include new lines to allow paragraphs
-          Implemented using Pretrained YOLOv4 on COCO dataset for object detection and DeepSort Model for object tracking.
-          ![Traffic](/images/demo.gif "Traffic")
+          I cleaned and prepared UCI DNA sequences data. Used exploratory data analysis to do feature engineering and trained the dataset on KNN, Decision Trees, SVM, Random Forest and Adaboost classifiers using pandas and sklearn to select the best performing model which was SVM.
+          
+      - layout: top-middle
+        title: Predicting house prices
+        link: github.com/navpreetnp7/Predicting-house-prices
+        # link_text: Project Website
+        additional_links:
+          - title:  Predicting-house-prices
+            icon: fab fa-github
+            url: github.com/navpreetnp7/Predicting-house-prices
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Predicting house prices using Liner Regression trained on Ames Housing Dataset
+        description: | # this will include new lines to allow paragraphs
+          I cleaned, prepared, and visualised Ames Housing dataset and performed feature selection and feature engineering using pandas, seaborn and scipy. Then trained the data on Linear Regression techniques lasso and gradient boosting using sklearn and used ensemble method stacking and averaging the models to produce the best fit for the data.
+          
 
 
   - title: A Little More About Me
