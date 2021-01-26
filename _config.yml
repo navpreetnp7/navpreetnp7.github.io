@@ -125,8 +125,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           Implemented using Pretrained YOLOv4 on COCO dataset for object detection and DeepSort Model for object tracking. The application is able to detect vehicles in a video footage and estimate their speed in pixels/sec.
           
-          
-          <img align="center" src="/images/demo.gif" height="250" width="250">
+          <p align="center">
+            <img width="250" height="250" src="/images/demo.gif">
+          </p>
 
           
       - layout: top-middle
