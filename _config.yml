@@ -124,7 +124,6 @@ content:
           Track vehicles on the road and estimate their speed.
         description: | # this will include new lines to allow paragraphs
           Implemented using Pretrained YOLOv4 on COCO dataset for object detection and DeepSort Model for object tracking. The application is able to detect vehicles in a video footage and estimate their speed in pixels/sec.
-
           ![Traffic](/images/demo.gif = 200x200 "Traffic")
           
       - layout: top-middle
