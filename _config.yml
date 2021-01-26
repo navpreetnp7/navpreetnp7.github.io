@@ -148,7 +148,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           I trained a simple seq2seq model Chatbot using Pytorch based on multi-layered Gated Recurrent Unit (GRUs) and Attention mechanism using movie scripts dataset from the Cornell Movie-Dialogs Corpus.
           
-          <img style="float: center;" src="/images/demo1.png" height="250" width="250">
+      - layout: top-middle
+        
+        quote: >
+         <img src="/images/demo1.png" height="250" width="250">
           
       - layout: top-middle
         title: Automatic detection of malignant tumors in the lungs using CT scans
@@ -165,8 +168,10 @@ content:
           Detection of tumors using Lung Nodule Analysis in CT Scans
         description: | # this will include new lines to allow paragraphs
           I trained an end-to-end complex deep neural network using Pytorch based on Lung Nodule Analysis dataset of chest CT scans, finding the nodules using simple CNN residual network architecture and then identifying the tumours using state of the art U-Net Architecture for Object Detection and Image segmentation and then using transfer learning to use the same resnet model to train and classify them as benign/malignant.
-          
-          <img style="float: center;" src="/images/demo2.png" height="250" width="250">
+      - layout: top-middle
+        
+        quote: >  
+          <img src="/images/demo2.png" height="250" width="250">
           
       - layout: top-middle
         title: DNA Classification
