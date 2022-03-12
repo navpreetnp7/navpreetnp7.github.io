@@ -134,6 +134,23 @@ content:
     content:
     
       - layout: top-middle
+        title: Generating fake images conditioned on different facial features
+        link: github.com/navpreetnp7/conditional-DCGAN
+        # link_text: Project Website
+        additional_links:
+          - title:  cDCGAN
+            icon: fab fa-github
+            url: github.com/navpreetnp7/conditional-DCGAN
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Fake image generator conditioned on facial attributes
+        description: | # this will include new lines to allow paragraphs
+          Implemented and trained Conditional DCGAN as a part of NYU Computer Vision Course project, using the celebrity dataset with facial attributes and base deep convolutional GAN architecture with Minimax loss function. Conditioned the generator on facial attributes like hair in order to produce fake images containing such attributes.
+      
+    
+      - layout: top-middle
         title: Algorithmic Trading Bots leveraging Machine Learning ( Independent Study in collab with Citibank )
         link: github.com/navpreetnp7/Trading-Bots
         # link_text: Project Website
