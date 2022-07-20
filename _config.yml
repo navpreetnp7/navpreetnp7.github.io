@@ -68,7 +68,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           I am currently a graduate student at NYU Courant pursuing Masters in Computer Science.
           
-          
       - layout: left
         title: Delhi Technological University
         caption: 2014 - 2018
@@ -90,7 +89,7 @@ content:
         quote: >
           Urban Complexity Lab at NYU’s Center For Urban Science + Progress is unfolding complexity of urban systems for research, innovation and applications. We leverage big urban data and cutting edge machine learning and network analysis techniques to  make our cities more smart, efficient, sustainable, resilient – better places to live in.
         description: | # this will include new lines to allow paragraphs
-            I am working on implementing and evaluating novel Graph Neural Network architecture for learning the structure features of the networks of human mobility and interactions.
+          I am working on implementing and evaluating novel Graph Neural Network architecture for learning the structure features of the networks of human mobility and interactions.
 
 - title: Teaching Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -104,7 +103,7 @@ content:
         quote: >
           CUSP is an interdisciplinary research center dedicated to the application of science, technology, engineering, and mathematics in the service of urban communities across the globe
         description: | # this will include new lines to allow paragraphs
-            I work with the professor introducing new content for the class. Conducting weekly recitation introducing urban case studies, getting students familiar with data science practices and libraries like pandas, matplotlib. As well as grading homeworks and answering student doubts.
+          I work with the professor introducing new content for the class. Conducting weekly recitation introducing urban case studies, getting students familiar with data science practices and libraries like pandas, matplotlib. As well as grading homeworks and answering student doubts.
 
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -119,7 +118,7 @@ content:
         quote: >
           eviCore empowers the improvement of care by connecting patients, providers, and health plans with intelligent, evidence-based solutions to enable better outcomes.
         description: | # this will include new lines to allow paragraphs
-            I performed EDA to analyze distributions, find correlations and gain understanding of health data used for prior authorization to approve complex treatment or prescription by health insurance provider for the patients and remove suspicious or fraudulent claims as well as predicting claims related to chronic disease cases.
+          I performed EDA to analyze distributions, find correlations and gain understanding of health data used for prior authorization to approve complex treatment or prescription by health insurance provider for the patients and remove suspicious or fraudulent claims as well as predicting claims related to chronic disease cases.
 
       - layout: left
         title: Wissen Technology
@@ -130,7 +129,7 @@ content:
         quote: >
           Wissen is a leading technology consulting and solutions company practice primarily geared towards the domains of Banking & Finance, Telecom, and Healthcare.
         description: | # this will include new lines to allow paragraphs
-            My work focused on training and implementing a Language Model for the Intelligent Search application for our client Baker Hughes. I implemented pdf parsing on the technical pdf documents as well as the BERT Transformer language model using sentence similarity for intelligent search.
+          My work focused on training and implementing a Language Model for the Intelligent Search application for our client Baker Hughes. I implemented pdf parsing on the technical pdf documents as well as the BERT Transformer language model using sentence similarity for intelligent search.
       
       - layout: left
         title: MetricStream
@@ -141,7 +140,7 @@ content:
         quote: >
           MetricStream is the world’s largest independent provider of governance, risk, and compliance (GRC) products & solutions.
         description: | # this will include new lines to allow paragraphs
-            My primary focus was on the backend (Oracle SQL) part of the GRC Application for Risks and Audit modules with some work on custom configuration for the GRC application as well using the M7 platform.
+          My primary focus was on the backend (Oracle SQL) part of the GRC Application for Risks and Audit modules with some work on custom configuration for the GRC application as well using the M7 platform.
 
 
   - title: Projects # Title for the section
