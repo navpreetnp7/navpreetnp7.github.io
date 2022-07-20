@@ -92,9 +92,25 @@ content:
         description: | # this will include new lines to allow paragraphs
             I am working on implementing and evaluating novel Graph Neural Network architecture for learning the structure features of the networks of human mobility and interactions.          
 
+  - title: Teaching Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: New York University
+        link: cusp.nyu.edu
+        # link_text: ucomp.net
+        sub_title: Teaching Assistant for Applied Data Science ( CUSP-GX 6001 )
+        caption: September 2021 - Present
+        quote: >
+          CUSP is an interdisciplinary research center dedicated to the application of science, technology, engineering, and mathematics in the service of urban communities across the globe
+        description: | # this will include new lines to allow paragraphs
+            I work with the professor introducing new content for the class. Conducting weekly recitation introducing urban case studies, getting students familiar with data science practices and libraries like pandas, matplotlib. As well as grading homeworks and answering student doubts.          
+
+
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+    
       - layout: left
         title: Wissen Technology
         link: wissen.com
@@ -107,6 +123,17 @@ content:
             My work focused on training and implementing a Language Model for the Intelligent Search application for our client Baker Hughes. I implemented pdf parsing on the technical pdf documents as well as the BERT Transformer language model using sentence similarity for intelligent search.
       
       - layout: left
+        title: Cigna ( Evicore Healthcare )
+        link: evicore.com
+        # link_text: evicore.com
+        sub_title: Machine Learning Intern
+        caption: May 2022 - Present
+        quote: >
+          eviCore empowers the improvement of care by connecting patients, providers, and health plans with intelligent, evidence-based solutions to enable better outcomes.
+        description: | # this will include new lines to allow paragraphs
+          I performed EDA to analyze distributions, find correlations and gain understanding of health data used for prior authorization to approve complex treatment or prescription by health insurance provider for the patients and remove suspicious or fraudulent claims as well as predicting claims related to chronic disease cases.
+            
+      - layout: left
         title: MetricStream
         link: metricstream.com
         # link_text: metricstream.com
@@ -116,17 +143,6 @@ content:
           MetricStream is the world’s largest independent provider of governance, risk, and compliance (GRC) products & solutions.
         description: | # this will include new lines to allow paragraphs
             My primary focus was on the backend (Oracle SQL) part of the GRC Application for Risks and Audit modules with some work on custom configuration for the GRC application as well using the M7 platform.
-
-      - layout: left
-        title: inkers.ai
-        link: inkers.ai
-        # link_text: inkers.ai
-        sub_title: Machine Learning Intern
-        caption: March 2019 - September 2019
-        quote: >
-          We design and develop deep large-scale AI and ML vision solutions for Enterprises, Defence and Security Organizations. 
-        description: | # this will include new lines to allow paragraphs
-            This was a huge learning experience for me where I learnt to implement deep learning models for Computer Vision as well as Natural Language Processing.
 
 
   - title: Projects # Title for the section
@@ -148,6 +164,24 @@ content:
           Fake image generator conditioned on facial attributes
         description: | # this will include new lines to allow paragraphs
           Implemented and trained Conditional DCGAN as a part of NYU Computer Vision Course project, using the celebrity dataset with facial attributes and base deep convolutional GAN architecture with Minimax loss function. Conditioned the generator on facial attributes like hair in order to produce fake images containing such attributes.
+          
+    
+      - layout: top-middle
+        title: Classifying AI relevant papers from Arxiv paper dataset
+        link: github.com/navpreetnp7/Classifying-arXiv-paper-using-GPT2
+        # link_text: Project Website
+        additional_links:
+          - title:  GPT2 classifier
+            icon: fab fa-github
+            url: github.com/navpreetnp7/Classifying-arXiv-paper-using-GPT2
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          GPT2 classifier using few shot learning and language model classification
+        description: | # this will include new lines to allow paragraphs
+          Implemented zero and few shot learning using GPT2 transformer from huggingface to classify AI and non AI relevant papers with just 10 examples in the training. Also experimented with different classification layers and convolution on top of GPT2 language model output training it with 20 samples, getting better score on precision-recall metrics compared with the few shot learning approach
+
           
       - layout: top-middle
         
