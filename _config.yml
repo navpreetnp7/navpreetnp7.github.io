@@ -149,6 +149,22 @@ content:
     content:
     
       - layout: top-middle
+        title: Classifying AI relevant papers from Arxiv paper dataset
+        link: github.com/navpreetnp7/Classifying-arXiv-paper-using-GPT2
+        # link_text: Project Website
+        additional_links:
+          - title:  GPT2 classifier
+            icon: fab fa-github
+            url: github.com/navpreetnp7/Classifying-arXiv-paper-using-GPT2
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          GPT2 classifier using few shot learning and language model classification
+        description: | # this will include new lines to allow paragraphs
+          Implemented zero and few shot learning using GPT2 transformer from huggingface to classify AI and non AI relevant papers with just 10 examples in the training. Also experimented with different classification layers and convolution on top of GPT2 language model output training it with 20 samples, getting better score on precision-recall metrics compared with the few shot learning approach
+    
+      - layout: top-middle
         title: Generating fake images conditioned on different facial features
         link: github.com/navpreetnp7/conditional-DCGAN
         # link_text: Project Website
