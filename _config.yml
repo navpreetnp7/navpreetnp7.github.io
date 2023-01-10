@@ -49,8 +49,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   
   I am a masters student at NYU Courant primarily interested in Statistics, Machine Learning and Deep Learning.
-  I have an experience of 2 years in Software Engineering including Backend Development (Oracle) and Machine Learning (NLP and ComputerVision).
-  My research interests are in the field of Natural Language Understanding and Computer Vision.
+  I have an experience of 2+ years in Software Engineering including Backend Development and Machine Learning .
 
 
 content:
@@ -66,7 +65,7 @@ content:
         quote: >
           New York University (NYU) is a private research university in New York City. Founded in 1831 by a group of prominent New Yorkers as an institution to "admit based upon merit rather than birthright or social class"
         description: | # this will include new lines to allow paragraphs
-          I am currently a graduate student at NYU Courant pursuing Masters in Computer Science.
+          I am graduated from NYU Courant with a degree of Masters in Computer Science.
           
           
       - layout: left
@@ -76,7 +75,7 @@ content:
         quote: >
           Delhi Technological University (DTU), formerly known as the Delhi College of Engineering (DCE) is a state university in New Delhi, India. It was established in 1941 as Delhi Polytechnic.
         description: | # this will include new lines to allow paragraphs
-          During my time at DTU I gained alot of interest in Software Engineering. I learnt many key skills such as teamwork, punctuality and stick-to-itiveness that has been useful to me throughout my career. 
+          I am graduated from DTU with a degree of Bachelor of Technology in Computer Engineering.
 
   - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -86,11 +85,11 @@ content:
         link: ucomp.net
         # link_text: ucomp.net
         sub_title: Graduate Research Assistant
-        caption: April 2021 - Present
+        caption: April 2021 - Aug 2022
         quote: >
           Urban Complexity Lab at NYU’s Center For Urban Science + Progress is unfolding complexity of urban systems for research, innovation and applications. We leverage big urban data and cutting edge machine learning and network analysis techniques to  make our cities more smart, efficient, sustainable, resilient – better places to live in.
         description: | # this will include new lines to allow paragraphs
-            I am working on implementing and evaluating novel Graph Neural Network architecture for learning the structure features of the networks of human mobility and interactions.          
+            I worked on implementing and evaluating novel Graph Neural Network architecture for learning the structure features of the networks of human mobility and interactions.          
 
   - title: Teaching Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -100,11 +99,11 @@ content:
         link: cusp.nyu.edu
         # link_text: ucomp.net
         sub_title: Teaching Assistant for Applied Data Science ( CUSP-GX 6001 )
-        caption: September 2021 - Present
+        caption: September 2021 - Aug 2022
         quote: >
           CUSP is an interdisciplinary research center dedicated to the application of science, technology, engineering, and mathematics in the service of urban communities across the globe
         description: | # this will include new lines to allow paragraphs
-            I work with the professor introducing new content for the class. Conducting weekly recitation introducing urban case studies, getting students familiar with data science practices and libraries like pandas, matplotlib. As well as grading homeworks and answering student doubts.          
+            I worked with the professor introducing new content for the class. Conducting weekly recitation introducing urban case studies, getting students familiar with data science practices and libraries like pandas, matplotlib. As well as grading homeworks and answering student doubts.          
 
 
   - title: Work Experience # Title for the section
@@ -126,12 +125,12 @@ content:
         title: Cigna ( Evicore Healthcare )
         link: evicore.com
         # link_text: evicore.com
-        sub_title: Machine Learning Intern
-        caption: May 2022 - Present
+        sub_title: Machine Learning Engineer
+        caption: May 2022 - Dec 2022
         quote: >
           eviCore empowers the improvement of care by connecting patients, providers, and health plans with intelligent, evidence-based solutions to enable better outcomes.
         description: | # this will include new lines to allow paragraphs
-          I performed EDA to analyze distributions, find correlations and gain understanding of health data used for prior authorization to approve complex treatment or prescription by health insurance provider for the patients and remove suspicious or fraudulent claims as well as predicting claims related to chronic disease cases.
+          I performed EDA to analyze distributions, find correlations and gain understanding of health data used for prior authorization to approve complex treatment or prescription by health insurance provider for the patients. I also worked on deploying machine learning models in Azure Cloud by creating pipelines.
             
       - layout: left
         title: MetricStream
@@ -142,7 +141,7 @@ content:
         quote: >
           MetricStream is the world’s largest independent provider of governance, risk, and compliance (GRC) products & solutions.
         description: | # this will include new lines to allow paragraphs
-            My primary focus was on the backend (Oracle SQL) part of the GRC Application for Risks and Audit modules with some work on custom configuration for the GRC application as well using the M7 platform.
+            My primary focus was on the backend development of the GRC Application for Risks and Audit modules with some work on custom configuration for the GRC application as well on the M7 platform.
 
 
   - title: Projects # Title for the section
